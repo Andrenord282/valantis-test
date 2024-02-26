@@ -1,6 +1,6 @@
 import axios from 'axios';
 import md5 from 'md5';
-const BASE_URL = 'http://api.valantis.store:40000';
+const BASE_URL = '//api.valantis.store:40000';
 
 const currentDate = new Date();
 const year = currentDate.getUTCFullYear();
