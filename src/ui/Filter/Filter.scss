@@ -1,0 +1,14 @@
+.filter {
+    &__item {
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__reset-button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #000000;
+        padding: 10px;
+    }
+}

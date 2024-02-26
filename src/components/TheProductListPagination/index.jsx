@@ -1,0 +1,1 @@
+export { TheProductListPagination } from './TheProductListPagination';

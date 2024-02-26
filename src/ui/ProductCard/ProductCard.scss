@@ -1,0 +1,35 @@
+.product-card {
+    padding: 20px 10px;
+    border: 1px solid #000;
+
+    &__header {
+        margin-bottom: 15px;
+    }
+    &__name {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px 0;
+    }
+
+    &__brand {
+        & span {
+            font-weight: 500;
+        }
+    }
+    &__price {
+        align-self: flex-end;
+        & span {
+            font-weight: 500;
+        }
+    }
+    &__id {
+        font-weight: 300;
+        word-break: break-all;
+    }
+}
