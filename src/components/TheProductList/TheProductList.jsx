@@ -14,6 +14,11 @@ const TheProductList = () => {
                 return <ProductCardSkeleton inheritedСlasses="product-list__item" key={index} />;
             });
         },
+        init: () => {
+            return new Array(fetchLimit).fill(0).map((_, index) => {
+                return <ProductCardSkeleton inheritedСlasses="product-list__item" key={index} />;
+            });
+        },
         loaded: () => {
             if (productCardList && productCardList.length > 0) {
                 return productCardList.map((productCard, index) => {
